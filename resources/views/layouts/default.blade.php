@@ -21,7 +21,7 @@
 
     <div id="header" class="middleContentItem">
       <!--<h1>@yield('title')</h1>-->
-      <h1>{!! link_to('http://loltrendresearch.xyz', 'LoL Trend Research') !!}</h1>
+      <h1>Set link</h1>
     </div>
 
     <div id="left">
@@ -39,7 +39,7 @@
 
 <!--      <div id="contents" class="middleContentItem">@yield('contents')</div> -->
       <div id="contents" class="middleContentItem">
-        {!! $contents !!}
+        plan putting contents
       </div>
     </div>
 
