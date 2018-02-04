@@ -47,7 +47,7 @@
       @yield('advertisement2')
     </div>
 
-    <div id="footer" class="middleContentItem"><p>&copy; 2015 LoLTrendResearch</p></div>
+    <div id="footer" class="middleContentItem"><p>&copy; 2018 LoLVariousAnalysis</p></div>
   </div>
 </body>
 </html>
