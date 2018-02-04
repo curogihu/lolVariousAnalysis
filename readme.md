@@ -2,7 +2,7 @@
 
 ・データ取込＋集計  
 ローカル上の下記の構成で集計した結果をサーバー上のMySQLに追加させる  
-Python 3 + Elasticsearch + Riot API  
+Python 3 + Elasticsearch 6.1 + Riot API  
 ※金銭面が怖いので、集計用と表示用でDBを分ける  
   
 ・Webサイト  
