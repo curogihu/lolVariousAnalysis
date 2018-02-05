@@ -7,3 +7,9 @@ Python 3 + Elasticsearch 6.1 + Riot API
   
 ・Webサイト  
 Laravel 5.5 + MySQL + Reactで作成  
+
+方針  
+・ プロトタイプサイトを作成  
+・ Riot APIのアクセス制限の緩和の為の申請を出す  
+※　申請が通らないと数千アクセスでも数時間かかってしまい、実用的でない為  
+・　機能を１つずつ設ける
