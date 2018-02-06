@@ -11,12 +11,14 @@
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
 
-Route::get('/toppage', function () {
-    return view('toppage');
+Route::get('/', function () {
+    return view('index');
 });
 
 

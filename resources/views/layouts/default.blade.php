@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" contents="ゲーム「リーグオブレジェンド」において、各チャンピオンの試合時間に適したアイテムが分かるサイトです。 On League of lengeds, You can know when and what should I buy items each champion.">
-  <meta name="keywords" content="リーグオブレジェンド, アイテム, 初心者, チャンピオン, League of Legends, LoL, lol, Champion, Item">
-  <title>LoL Trend Research</title>
+  <meta name="description" contents="ゲーム「リーグオブレジェンド」のランク戦やクラッシュ対策を兼ねた分析サイトです">
+  <meta name="keywords" content="リーグオブレジェンド, チャンピオン, クラッシュ, League of Legends, LoL, lol, Champion, clash">
+  <title>LoL Various Analysis</title>
 <!--
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/default.css" type="text/css">
@@ -21,7 +21,7 @@
 
     <div id="header" class="middleContentItem">
       <!--<h1>@yield('title')</h1>-->
-      <h1>Set link</h1>
+      <h1>LoL Various Analysis</h1>
     </div>
 
     <div id="left">
