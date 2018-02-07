@@ -21,7 +21,7 @@
 
     <div id="header" class="middleContentItem">
       <!--<h1>@yield('title')</h1>-->
-      <h1>LoL Various Analysis</h1>
+      <h1>LoL Counter Build</h1>
     </div>
 
     <div id="left">
