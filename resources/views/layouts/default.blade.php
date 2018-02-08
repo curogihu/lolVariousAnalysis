@@ -21,7 +21,7 @@
 
     <div id="header" class="middleContentItem">
       <!--<h1>@yield('title')</h1>-->
-      <h1>LoL Counter Build</h1>
+      <h1>LoL Various Analysis</h1>
     </div>
 
     <div id="left">
@@ -30,11 +30,9 @@
 
     <div id="middle">
       <div id="menu" class="middleContentItem">
-        <h2><a href="/whenbuy" class="menuItem">@yield('menuItem1')</a></h2>
-        <h2><a href="/whenkilled" class="menuItem">@yield('menuItem2')</a></h2>
-        <h2><a href="/wherelane" class="menuItem">@yield('menuItem3')</a></h2>
-        <h2><a href="/howmanycs" class="menuItem">@yield('menuItem4')</a></h2>
-        <h2><a href="/form" class="menuItem">@yield('menuItem5')</a></h2>
+        <h2><a href="/counterbuild" class="menuItem">@yield('menuItem1')</a></h2>
+        <h2><a href="/wintrolls" class="menuItem">@yield('menuItem2')</a></h2>
+        <h2><a href="/comparecs" class="menuItem">@yield('menuItem3')</a></h2>
       </div>
 
 <!--      <div id="contents" class="middleContentItem">@yield('contents')</div> -->
