@@ -21,4 +21,13 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/counterbuild'
+			, 'CounterBuildController@show_champions_list');
+
+Route::get('/counterbuild/{my_champion_id}'
+			,'CounterBuildController@show_opponent_champions_list');
+
+Route::get('/counterbuild/{my_champion_id}/{enemy_champion_id}'
+			, 'CounterBuildController@show_item_builds_list');
+
 

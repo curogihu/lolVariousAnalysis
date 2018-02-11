@@ -18,9 +18,10 @@ aggregate and submit them to My SQL on server
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function show_champions_list()
     {
-        //
+        // i will be changed to return view('counterbuild.index',compact('champions_info'));
+        return view('counterbuild.index');
     }
 
     /**
@@ -28,9 +29,9 @@ aggregate and submit them to My SQL on server
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function show_opponent_champions_list($my_champion_id)
     {
-        //
+        return view('counterbuild.opponent_champions_list');
     }
 
     /**
@@ -39,53 +40,9 @@ aggregate and submit them to My SQL on server
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function show_item_builds_list($my_champion_id, $enemy_champion_id})
     {
-        //
+        return view('counterbuild.item_builds_list');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }
