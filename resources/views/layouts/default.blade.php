@@ -37,7 +37,7 @@
 
 <!--      <div id="contents" class="middleContentItem">@yield('contents')</div> -->
       <div id="contents" class="middleContentItem">
-        plan putting contents
+        @yield('contents')
       </div>
     </div>
 

@@ -27,7 +27,7 @@ Route::get('/counterbuild'
 Route::get('/counterbuild/{my_champion_id}'
 			,'CounterBuildController@show_opponent_champions_list');
 
-Route::get('/counterbuild/{my_champion_id}/{enemy_champion_id}'
+Route::get('/counterbuild/{my_champion_id}/opponent/{enemy_champion_id}'
 			, 'CounterBuildController@show_item_builds_list');
 
 

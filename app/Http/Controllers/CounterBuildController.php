@@ -40,7 +40,7 @@ aggregate and submit them to My SQL on server
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function show_item_builds_list($my_champion_id, $enemy_champion_id})
+    public function show_item_builds_list($my_champion_id, $enemy_champion_id)
     {
         return view('counterbuild.item_builds_list');
     }
